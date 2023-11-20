@@ -4,10 +4,12 @@
     --bg-color2: #242424;
     --main-color: #65D3A4;
     --text-color: #fff;
+    --text-color2: #ccc;
 }
 
 body {
     font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
 }
 
 * {
@@ -18,4 +20,18 @@ body {
 
 ul { list-style-type: none; }
 a { text-decoration: none;}
+p {
+    line-height: 1.7;
+}
 
+.btn {
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    border-bottom: 2px solid var(--main-color);
+    padding: 10px 0;
+}
+
+.accent-line {
+    border-bottom: 4px solid var(--main-color);
+}
