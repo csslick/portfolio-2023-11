@@ -1,0 +1,21 @@
+/* default.css */
+:root {
+    --bg-color1: #151515;
+    --bg-color2: #242424;
+    --main-color: #65D3A4;
+    --text-color: #fff;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul { list-style-type: none; }
+a { text-decoration: none;}
+
