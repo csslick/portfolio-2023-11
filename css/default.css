@@ -19,7 +19,9 @@ body {
 }
 
 ul { list-style-type: none; }
+
 a { text-decoration: none;}
+
 p {
     line-height: 1.7;
 }
