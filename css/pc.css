@@ -95,3 +95,36 @@ header .icons li {
     color: var(--text-color2);
     margin-top: 1em;
 }
+
+/* section이나 article에는 제목이 필수이나 디자인 적으로 생략 가능 */
+#skills h2 { display: none; }
+
+#projects .title-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#projects h2 {
+    font-size: 62px;
+}
+
+#projects.container {
+    /* border: 1px solid red; */
+    padding-right: 20px;
+}
+
+#projects .item-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* 칼럼 여백 */
+}
+
+#projects .item-list li {
+    /* border: 2px solid green; */
+    width: calc(50% - 10px);
+}
+
+#projects .item-list li img {
+    width: 100%;
+}
