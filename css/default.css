@@ -2,7 +2,8 @@
 :root {
     --bg-color1: #151515;
     --bg-color2: #242424;
-    --main-color: #65D3A4;
+    /* --main-color: #65D3A4; */
+    --main-color: #e84118;
     --text-color: #fff;
     --text-color2: #ccc;
 }
