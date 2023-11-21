@@ -5,6 +5,14 @@ body {
     color: var(--text-color);
 }
 
+.hero {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: url('../images/profile.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
+}
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -39,10 +47,10 @@ header .icons li {
 #title {
     /* background-color: pink; */
     height: calc(100vh - 100px);
-    background-image: url('../images/profile.jpg');
+    /* background-image: url('../images/profile.jpg');
     background-repeat: no-repeat;
     background-position: right top;
-    background-size: contain;
+    background-size: contain; */
 }
 
 #title h2 {
