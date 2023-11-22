@@ -13,7 +13,7 @@ body {
     padding-left: 20px;
 }
 
-header {
+header, footer .container {
     /* background: #ccc; */
     height: 100px;
     display: flex;
@@ -23,17 +23,21 @@ header {
     padding-right: 20px;
 }
 
-header h1 {
+header h1, footer h1 {
     font-size: 22px;
 }
 
-header a {
+header a, footer a {
     color: var(--text-color);
 }
 
-header .icons li {
+header .icons li, footer .icons li {
     display: inline-block;
     margin-left: 1em;
+}
+
+footer {
+    background-color: var(--bg-color2);
 }
 
 .hero {
